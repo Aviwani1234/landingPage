@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;400;600&display=swap');
+
+*{
+    padding: 0%;
+    margin: 0%;
+    font-family: 'Nunito', sans-serif;
+}
+
+.container{
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(to right, #93C571 70%, #C8EBB1 30%);
+    position: relative;
+    overflow: hidden;
+}
+
+.wave{
+    position: absolute;
+    right: 30%;
+}
+
+.navbar{
+   /* border: solid black;*/
+    width: 43%;
+    margin-top: 3.5rem;
+    margin-left: 3rem;
+    display: flex;
+    justify-content: space-between;
+    font-size: large;
+    color: #494234;
+}
+
+.navbar a{
+    padding: 0.3rem 1.3rem;
+    color: #494234;   
+}
+
+.logo{
+    position: absolute;
+    right: 4rem;
+    top: 2rem;
+}
+
+.main-container{
+    position: relative;
+    left:4rem;
+    margin-top: 8%;
+}
+
+.body-text{
+    position: absolute;
+    left: 26rem;
+    top: 4rem;
+    letter-spacing: 1px;
+    
+}
+
+#main-heading{
+    font-size: 4rem;
+    color: #494234;
+}
+
+.main-container button{
+    margin-top: 2.5rem;
+    outline: none;
+    border: none;
+    font-size: 18px;
+    padding: 0.5rem 2.5rem 0.5rem 1rem;
+    border-radius: 0% 50% 50% 0%;
+    background-color: #494234;
+    color: aliceblue;
+    cursor: pointer;
+}
+
+.first-box img{
+    position: absolute;
+    top: 12rem;
+    right: 22rem;
+    border-radius: 50%;
+    box-shadow: -5px 5px 17px rgba(0, 0,0, 0.3);
+}
+
+.first-box h1{
+    position: absolute;
+    top: 14rem;
+    right: 8rem;
+}
+
+.first-box p{
+    position: absolute;
+    top: 17rem;
+    right: 8rem;
+}
+
+.second-box img{
+    position: absolute;
+    top: 22rem;
+    right: 22rem;
+    border-radius: 50%;
+    box-shadow: -5px 5px 17px rgba(0, 0,0, 0.3);
+}
+
+.second-box h1{
+    position: absolute;
+    top: 24rem;
+    right: 8rem;
+}
+
+.second-box p{
+    position: absolute;
+    top: 27rem;
+    right: 5rem;
+}
+
+.third-box img{
+    position: absolute;
+    top: 32rem;
+    right: 22rem;
+    border-radius: 50%;
+    box-shadow: -5px 5px 17px rgba(0, 0,0, 0.3);
+}
+
+.third-box h1{
+    position: absolute;
+    top: 34rem;
+    right: 8rem;
+}
+
+.third-box p{
+    position: absolute;
+    top: 37rem;
+    right: 8rem;
+}
+
+.image:hover{
+    background-color: rgba(73, 66, 52,0.7);
+}
+
+
+
+

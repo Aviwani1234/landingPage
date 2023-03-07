@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pistachio</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+</head>
+
+<body>
+    <div class="container">
+        <div class="wave">
+            <img src="./images/bg.png" alt="partition-img">
+        </div>
+        <div class="navbar">
+            <h3><a href="#">Home</a></h3>
+            <h3><a href="#">Product</a></h3>
+            <h3><a href="#">Service</a></h3>
+            <h3><a href="#">Types</a></h3>
+            <h3><a href="#">FAQs</a></h3>
+        </div>
+        <div class="logo">
+            <img src="./images/logo.png" alt="logo">
+        </div>
+
+        <div class="main-container">
+            <div class="body-img">
+                <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide"><img src="./images/img1.png" alt="image1" 
+                              width="380px" height="380px"></div>
+                        <div class="swiper-slide"><img src="./images/img2.png" alt="image2"     
+                              width="380px" height="380px"></div>
+                        <div class="swiper-slide"><img src="./images/img3.png" alt="image3" 
+                              width="380px" height="380px"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="body-text">
+                <h1 id="main-heading">The <br>Pistachios</h1>
+                <p class="quote">“The pistachio: it's just like our politics. When the two </p>
+                <p>sides are divided, that's when the nuts come out.”<br> ― Stephen Colbert.</p>
+                <button>know more</button>
+            </div>
+        </div>
+
+        <div class="right-container">
+            <div class="first-box">
+                <img class="image" src="./images/img4.png" alt="image4">
+                <h1>100% Organic</h1>
+                <p>We sell 100% organic pista's</p>
+            </div>
+
+            <div class="second-box">
+                <img class="image" src="./images/img5.png" alt="image4">
+                <h1>Not Expensice</h1>
+                <p>Our product availabel in lower price</p>
+            </div>
+
+            <div class="third-box">
+                <img class="image" src="./images/img6.png" alt="image4">
+                <h1>Super Healthy</h1>
+                <p>Our pista's are super healthy</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+          slidesPerView: 1,
+          spaceBetween: 30,
+          loop: true,
+        });
+      </script>
+
+</body>
+
+</html>
