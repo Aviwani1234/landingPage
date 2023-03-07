@@ -9,18 +9,25 @@
 .container{
     height: 100vh;
     width: 100%;
-    background: linear-gradient(to right, #93C571 70%, #C8EBB1 30%);
+    background: linear-gradient(to right, #93c572 70%, #C8EBB1 30%);
     position: relative;
     overflow: hidden;
 }
 
 .wave{
     position: absolute;
+    top: 0;
     right: 30%;
+    height: 100vh;
+}
+
+.wave img{
+    height: 100vh;
 }
 
 .navbar{
    /* border: solid black;*/
+   /*background-color: red;*/
     width: 43%;
     margin-top: 3.5rem;
     margin-left: 3rem;
@@ -35,6 +42,10 @@
     color: #494234;   
 }
 
+a:hover{
+    background-color: #C8EBB1;
+}
+
 .logo{
     position: absolute;
     right: 4rem;
@@ -42,6 +53,7 @@
 }
 
 .main-container{
+    width: 60%;
     position: relative;
     left:4rem;
     margin-top: 8%;
@@ -70,6 +82,13 @@
     background-color: #494234;
     color: aliceblue;
     cursor: pointer;
+}
+.main-container button:hover{
+    background-color: aquamarine;
+}
+
+.right-container{
+    overflow: hidden;
 }
 
 .first-box img{
